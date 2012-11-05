@@ -18,6 +18,7 @@ The idea behind building such a plugin is that we believe following WordPress.or
 We encourage all end-users, as well as developers, to extend any additional functionality of WordPress themes by using Widget Pack. This ensures painless and safe switching themes without loosing any widget content or its function.
 
 =TS Call to Action Widget=
+
 Call to action widget gives you an option of inserting a call to action box in any widgetized area of your WordPress theme. Elements of the call to action widget are:
 
 * Title
@@ -29,6 +30,7 @@ Call to action widget gives you an option of inserting a call to action box in a
 * Button color (yellow, blue, red, green, black)
 
 =TS List Authors Widget=
+
 This widget lists all authors on your blog. You have the option of customizing:
 
 * Title
@@ -40,6 +42,7 @@ This widget lists all authors on your blog. You have the option of customizing:
 * Show latest posts for each author
 
 =TS oEmbed Widget=
+
 TS oEmbed allows you to embed all kinds of stuff without worrying about the code. You just enter the link and widget does the rest.
 
 Supported formats:
@@ -62,6 +65,7 @@ Supported formats:
 * FunnyOrDie.com (WordPress 3.0+)
 
 =TS Page Tree Widget=
+
 The widget shows your current position in page hierarchy. Options you have for TS Page Tree widget are:
 
 * Title
@@ -72,6 +76,7 @@ The widget shows your current position in page hierarchy. Options you have for T
 "Top" shows top level ancestors.
 
 =TS Preview Post Widget=
+
 Preview Post widget shows the post you'd like to feature. For that post you choose:
 
 * Post ID
@@ -81,6 +86,7 @@ Preview Post widget shows the post you'd like to feature. For that post you choo
 * Read more link text (leave more link text)
 
 =TS Social Icons=
+
 Social Icons widget enables people to easily connect with you on social networks of your choosing and there's an abundance of them.
 
 * Twitter
@@ -106,6 +112,7 @@ Social Icons widget enables people to easily connect with you on social networks
 == Features ==
 
 =TS Call to Action Widget=
+
 Call to action widget gives you an option of inserting a call to action box in any widgetized area of your WordPress theme. Elements of the call to action widget are:
 
 * Title
@@ -117,6 +124,7 @@ Call to action widget gives you an option of inserting a call to action box in a
 * Button color (yellow, blue, red, green, black)
 
 =TS List Authors Widget=
+
 This widget lists all authors on your blog. You have the option of customizing:
 
 * Title
@@ -128,6 +136,7 @@ This widget lists all authors on your blog. You have the option of customizing:
 * Show latest posts for each author
 
 =TS oEmbed Widget=
+
 TS oEmbed allows you to embed all kinds of stuff without worrying about the code. You just enter the link and widget does the rest.
 
 Supported formats:
@@ -150,6 +159,7 @@ Supported formats:
 * FunnyOrDie.com (WordPress 3.0+)
 
 =TS Page Tree Widget=
+
 The widget shows your current position in page hierarchy. Options you have for TS Page Tree widget are:
 
 * Title
@@ -160,6 +170,7 @@ The widget shows your current position in page hierarchy. Options you have for T
 "Top" shows top level ancestors.
 
 =TS Preview Post Widget=
+
 Preview Post widget shows the post you'd like to feature. For that post you choose:
 
 * Post ID
@@ -169,6 +180,7 @@ Preview Post widget shows the post you'd like to feature. For that post you choo
 * Read more link text (leave more link text)
 
 =TS Social Icons=
+
 Social Icons widget enables people to easily connect with you on social networks of your choosing and there's an abundance of them.
 
 * Twitter
