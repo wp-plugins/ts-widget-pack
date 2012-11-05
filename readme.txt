@@ -191,9 +191,9 @@ Social Icons widget enables people to easily connect with you on social networks
 
 == Screenshots ==
 
-1. Fancier Author Box underneath your posts
-2. Global options page (display & color settings)
-3. User settings page
+1. List of TS widgets in the dashboard
+2. oEmbed widget displaying an embedded video from Vimeo
+3. Call to action widget
 4. oEmbed widget displaying an embedded tweet
 5. Post preview and social icons widgets
 
