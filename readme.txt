@@ -1,4 +1,4 @@
-=== TS Widget Pack by ThematoSoup ===
+=== Widget Pack by ThematoSoup ===
 Contributors: slobodanmanic, nikolicdragan
 Tags: call-to-action widget, list authors, oembed, page tree, preview post widget, social icons widget
 Requires at least: 3.1
@@ -7,15 +7,15 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-TS Widget Pack is a ThematoSoup plugin that enables essential, yet powerful features for your WordPress website.
+Widget Pack is a ThematoSoup plugin that enables essential, yet powerful features for your WordPress website.
 
 == Description ==
 
-Ts Widget Pack consists of several widget modules that will enable you to do the things you wish were WordPress standard features. 
+Widget Pack consists of several widget modules that will enable you to do the things you wish were WordPress standard features. 
 
 The idea behind building such a plugin is that we believe following WordPress.org codex and best practices is the only way of developing WordPress themes and plugins. 
 
-We encourage all end-users, as well as developers, to extend any additional functionality of WordPress themes by using TS Widget Pack. This ensures painless and safe switching themes without loosing any widget content or its function.
+We encourage all end-users, as well as developers, to extend any additional functionality of WordPress themes by using Widget Pack. This ensures painless and safe switching themes without loosing any widget content or its function.
 
 =TS Call to Action Widget=
 Call to action widget gives you an option of inserting a call to action box in any widgetized area of your WordPress theme. Elements of the call to action widget are:
@@ -203,7 +203,7 @@ Social Icons widget enables people to easily connect with you on social networks
 
 == Upgrade Notice ==
 
-TS Widget Pack plugin was made to make life easier for end-user who wish to expand WordPress functionality, as well as for developers, so they don't have to bundle widgets into themes. 
+Widget Pack plugin was made to make life easier for end-user who wish to expand WordPress functionality, as well as for developers, so they don't have to bundle widgets into themes. 
 
 This way you [preserve functionality in the event of switching to a different theme](http://thematosoup.com/tips/theme-should-never-do-plugin-work/).
 
