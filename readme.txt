@@ -7,7 +7,7 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-Widget Pack is a ThematoSoup plugin that enables essential, yet powerful features for your WordPress website.
+Widget Pack is a WordPress plugin that enables essential, yet powerful features for your website.
 
 == Description ==
 
@@ -17,8 +17,7 @@ The idea behind building such a plugin is that we believe following WordPress.or
 
 We encourage all end-users, as well as developers, to extend any additional functionality of WordPress themes by using Widget Pack. This ensures painless and safe switching themes without loosing any widget content or its function.
 
-=TS Call to Action Widget=
-
+= TS Call to Action Widget =
 Call to action widget gives you an option of inserting a call to action box in any widgetized area of your WordPress theme. Elements of the call to action widget are:
 
 * Title
@@ -29,8 +28,7 @@ Call to action widget gives you an option of inserting a call to action box in a
 * Button position (right, left, below, no-button
 * Button color (yellow, blue, red, green, black)
 
-=TS List Authors Widget=
-
+= TS List Authors Widget =
 This widget lists all authors on your blog. You have the option of customizing:
 
 * Title
@@ -41,8 +39,7 @@ This widget lists all authors on your blog. You have the option of customizing:
 * Sorting (ascending, descending)
 * Show latest posts for each author
 
-=TS oEmbed Widget=
-
+= TS oEmbed Widget =
 TS oEmbed allows you to embed all kinds of stuff without worrying about the code. You just enter the link and widget does the rest.
 
 Supported formats:
@@ -64,7 +61,7 @@ Supported formats:
 * SmugMug (WordPress 3.0+)
 * FunnyOrDie.com (WordPress 3.0+)
 
-=TS Page Tree Widget=
+= TS Page Tree Widget =
 
 The widget shows your current position in page hierarchy. Options you have for TS Page Tree widget are:
 
@@ -75,8 +72,7 @@ The widget shows your current position in page hierarchy. Options you have for T
 
 "Top" shows top level ancestors.
 
-=TS Preview Post Widget=
-
+= TS Preview Post Widget =
 Preview Post widget shows the post you'd like to feature. For that post you choose:
 
 * Post ID
@@ -85,8 +81,7 @@ Preview Post widget shows the post you'd like to feature. For that post you choo
 * Show Excerpt
 * Read more link text (leave more link text)
 
-=TS Social Icons=
-
+= TS Social Icons =
 Social Icons widget enables people to easily connect with you on social networks of your choosing and there's an abundance of them.
 
 * Twitter
@@ -104,15 +99,13 @@ Social Icons widget enables people to easily connect with you on social networks
 * Reddit
 
 == Installation ==
-
 1. Download the plugin from this page and extract it
 2. Copy the fancier-author-box folder to the "/wp-content/plugins/" directory 
 3. Activate the plugin through the "Plugins" menu in WordPress dashboard
 
 == Features ==
 
-=TS Call to Action Widget=
-
+= TS Call to Action Widget =
 Call to action widget gives you an option of inserting a call to action box in any widgetized area of your WordPress theme. Elements of the call to action widget are:
 
 * Title
@@ -123,8 +116,7 @@ Call to action widget gives you an option of inserting a call to action box in a
 * Button position (right, left, below, no-button
 * Button color (yellow, blue, red, green, black)
 
-=TS List Authors Widget=
-
+= TS List Authors Widget =
 This widget lists all authors on your blog. You have the option of customizing:
 
 * Title
@@ -135,8 +127,7 @@ This widget lists all authors on your blog. You have the option of customizing:
 * Sorting (ascending, descending)
 * Show latest posts for each author
 
-=TS oEmbed Widget=
-
+= TS oEmbed Widget =
 TS oEmbed allows you to embed all kinds of stuff without worrying about the code. You just enter the link and widget does the rest.
 
 Supported formats:
@@ -158,8 +149,7 @@ Supported formats:
 * SmugMug (WordPress 3.0+)
 * FunnyOrDie.com (WordPress 3.0+)
 
-=TS Page Tree Widget=
-
+= TS Page Tree Widget =
 The widget shows your current position in page hierarchy. Options you have for TS Page Tree widget are:
 
 * Title
@@ -169,8 +159,7 @@ The widget shows your current position in page hierarchy. Options you have for T
 
 "Top" shows top level ancestors.
 
-=TS Preview Post Widget=
-
+= TS Preview Post Widget =
 Preview Post widget shows the post you'd like to feature. For that post you choose:
 
 * Post ID
@@ -179,8 +168,7 @@ Preview Post widget shows the post you'd like to feature. For that post you choo
 * Show Excerpt
 * Read more link text (leave more link text)
 
-=TS Social Icons=
-
+= TS Social Icons =
 Social Icons widget enables people to easily connect with you on social networks of your choosing and there's an abundance of them.
 
 * Twitter
@@ -210,7 +198,6 @@ Social Icons widget enables people to easily connect with you on social networks
 == Changelog ==
 
 = 1.0 =
-
 * The first version of the plugin.
 
 == Upgrade Notice ==
