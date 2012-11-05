@@ -194,6 +194,8 @@ Social Icons widget enables people to easily connect with you on social networks
 1. Fancier Author Box underneath your posts
 2. Global options page (display & color settings)
 3. User settings page
+4. oEmbed widget displaying an embedded tweet
+5. Post preview and social icons widgets
 
 == Changelog ==
 
