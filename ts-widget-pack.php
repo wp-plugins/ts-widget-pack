@@ -16,7 +16,7 @@
 
 
 // Define plugin version constant
-define( 'TS_WIDGET_PACK_VERSION', '1.0' );
+define( 'TS_WIDGET_PACK_VERSION', '1.1' );
 
 
 

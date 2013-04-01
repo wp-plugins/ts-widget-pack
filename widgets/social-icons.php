@@ -3,7 +3,7 @@
  * Social icons widget
  *
  * @package TS Widget Pack
- * @version 1.0
+ * @version 1.1
  */
 
 
@@ -202,8 +202,7 @@ class TS_Widgets_Social_Icons extends WP_Widget {
 		
 			// Make array elements available as variables
 			extract( $widget_field );
-			$ts_widgets_field_value = esc_attr( $instance[$ts_widgets_name] );
-			
+			$ts_widgets_field_value = isset( $instance[$ts_widgets_name] ) ? esc_attr( $instance[$ts_widgets_name] ) : '';
 			ts_widgets_show_widget_field( $this, $widget_field, $ts_widgets_field_value );
 		
 		}	

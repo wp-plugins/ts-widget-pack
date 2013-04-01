@@ -3,7 +3,7 @@
  * File that holds helper functions that display widget fields in the dashboard
  *
  * @package TS Widget Pack
- * @version 1.0
+ * @version 1.1
  */
 
 /**

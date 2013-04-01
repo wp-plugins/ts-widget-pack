@@ -3,7 +3,7 @@
  * List authors widget
  *
  * @package TS Widget Pack
- * @version 1.0
+ * @version 1.1
  */
 
 
@@ -44,6 +44,19 @@ class TS_Widgets_List_Authors extends WP_Widget {
 				'ts_widgets_name'			=> 'number_of_authors',
 				'ts_widgets_title'			=> __( 'Number of authors to display', 'ts-widgets' ),
 				'ts_widgets_field_type'		=> 'number'
+			),
+			'user_role' => array (
+				'ts_widgets_name'			=> 'user_role',
+				'ts_widgets_title'			=> __( 'User role(s) to display', 'ts-widgets' ),
+				'ts_widgets_field_type'		=> 'select',
+				'ts_widgets_field_options'	=> array(
+					'All'				=> 'All users',
+					'Administrator'		=> 'Administrators',
+					'Editor'			=> 'Editors',
+					'Author'			=> 'Authors',
+					'Contributor'		=> 'Contributors',
+					'Subscriber'		=> 'Subscribers'
+				)
 			),
 			'display_gravatar' => array (
 				'ts_widgets_name'			=> 'display_gravatar',
@@ -102,6 +115,7 @@ class TS_Widgets_List_Authors extends WP_Widget {
 		
 		$widget_title 			= apply_filters( 'widget_title', $instance['widget_title'] );
 		$number_of_authors 		= $instance['number_of_authors'];
+		$user_role		 		= $instance['user_role'];
 		$display_gravatar		= $instance['display_gravatar'];
 		$gravatar_size			= $instance['gravatar_size'];
 		$sort_by				= $instance['sort_by'];
@@ -122,6 +136,10 @@ class TS_Widgets_List_Authors extends WP_Widget {
 			'order'		=> $sort,
 			'orderby'	=> $sort_by
 		);
+		// If needed add Role argument
+		if( isset( $user_role ) && 'All' != $user_role ) {
+			$args['role'] = $user_role;
+		}
 		$blogusers = get_users( $args );
 
 		// Determine button position and color
@@ -229,8 +247,7 @@ class TS_Widgets_List_Authors extends WP_Widget {
 		
 			// Make array elements available as variables
 			extract( $widget_field );
-			$ts_widgets_field_value = esc_attr( $instance[$ts_widgets_name] );
-			
+			$ts_widgets_field_value = isset( $instance[$ts_widgets_name] ) ? esc_attr( $instance[$ts_widgets_name] ) : '';
 			ts_widgets_show_widget_field( $this, $widget_field, $ts_widgets_field_value );
 		
 		}	
