@@ -5,7 +5,7 @@ TS Widget Pack by ThematoSoup
 * Tags: call-to-action, list authors, oembed, page tree, preview post widget, social icons widget
 * Requires at least: 3.1
 * Tested up to: 3.4.2
-* Stable tag: 1.0
+* Stable tag: 1.1
 * License: GPLv2 or later
 * License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -212,8 +212,11 @@ Screenshots
 Changelog
 ---------
 
-### 1.0
+### 1.1
+* Added filtering by user role to List Authors widget. 
+* Fixed several PHP notices.
 
+### 1.0
 * The first version of the plugin.
 
 Upgrade Notice

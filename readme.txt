@@ -3,7 +3,7 @@ Contributors: slobodanmanic, nikolicdragan
 Tags: call-to-action widget, list authors, oembed, page tree, preview post widget, social icons widget
 Requires at least: 3.1
 Tested up to: 3.5.1
-Stable tag: 1.0
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -198,6 +198,10 @@ Social Icons widget enables people to easily connect with you on social networks
 5. Post preview and social icons widgets
 
 == Changelog ==
+
+= 1.1 =
+* Added filtering by user role to List Authors widget. 
+* Fixed several PHP notices.
 
 = 1.0 =
 * The first version of the plugin.

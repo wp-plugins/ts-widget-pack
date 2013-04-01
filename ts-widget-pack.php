@@ -5,11 +5,11 @@
  * Description: Adds custom widgets to site
  * Author: ThematoSoup
  * Author URI: http://thematosoup.com
- * Version: 1.0
+ * Version: 1.1
  * License: GPLv2 or later
  *
  * @package TS Widget Pack
- * @version 1.0
+ * @version 1.1
  * 
  * Plugin prefix: 'ts_widgets_'
  */
