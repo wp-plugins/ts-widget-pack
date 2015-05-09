@@ -8,7 +8,7 @@
 
 
 /**
- * Adds TS_List_Authors_Widget widget.
+ * Adds TS_Widgets_Preview_Post widget.
  */
 add_action( 'widgets_init', create_function( '', 'register_widget( "ts_widgets_preview_post" );' ) );
 class TS_Widgets_Preview_Post extends WP_Widget {
@@ -169,4 +169,4 @@ class TS_Widgets_Preview_Post extends WP_Widget {
 		}	
 	}
 
-} // class Foo_Widget
+} // class TS_Widgets_Preview_Post

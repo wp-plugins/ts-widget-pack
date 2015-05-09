@@ -8,7 +8,7 @@
 
 
 /**
- * Adds TS_Call_To_Action_Widget widget.
+ * Adds TS_Widgets_oEmbed widget.
  */
 add_action( 'widgets_init', create_function( '', 'register_widget( "ts_widgets_oembed" );' ) );
 class TS_Widgets_oEmbed extends WP_Widget {
@@ -163,4 +163,4 @@ class TS_Widgets_oEmbed extends WP_Widget {
 		}	
 	}
 
-} // class Foo_Widget
+} // class TS_Widgets_oEmbed

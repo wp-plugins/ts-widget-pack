@@ -17,7 +17,6 @@
  * @since	TS Widget Pack 0.1
  */
 function ts_widgets_show_widget_field( $instance = '', $widget_field = '', $thsp_field_value = '' ) {
-	
 	extract( $widget_field );
 	
 	switch( $ts_widgets_field_type ) {
@@ -112,5 +111,4 @@ function ts_widgets_show_widget_field( $instance = '', $widget_field = '', $thsp
 			break;
 		
 	}
-	
 }

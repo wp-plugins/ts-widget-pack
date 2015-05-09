@@ -212,4 +212,4 @@ class TS_Widgets_Call_To_Action extends WP_Widget {
 		}	
 	}
 
-} // class Foo_Widget
+} // class TS_Widgets_Call_To_Action

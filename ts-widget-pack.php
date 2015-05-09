@@ -5,18 +5,18 @@
  * Description: Adds custom widgets to site
  * Author: ThematoSoup
  * Author URI: http://thematosoup.com
- * Version: 1.1
+ * Version: 1.2
  * License: GPLv2 or later
  *
  * @package TS Widget Pack
- * @version 1.1
+ * @version 1.2
  * 
  * Plugin prefix: 'ts_widgets_'
  */
 
 
 // Define plugin version constant
-define( 'TS_WIDGET_PACK_VERSION', '1.1' );
+define( 'TS_WIDGET_PACK_VERSION', '1.2' );
 
 
 
@@ -25,40 +25,20 @@ define( 'TS_WIDGET_PACK_VERSION', '1.1' );
  *
  * @since 0.1
  */
-add_action( 'wp_enqueue_scripts', 'ts_widgets_add_scripts_styles' );
 function ts_widgets_add_scripts_styles() {
+	$min = defined( 'SCRIPT_DEBUG' ) && SCRIPT_DEBUG ? '' : '.min';
 
-	$css_url = plugins_url( 'css/ts-widget-pack.css', __FILE__ );
+	$css_url = plugins_url( "css/ts-widget-pack$min.css", __FILE__ );
 	wp_register_style( 'ts_widget-pack', $css_url, '', TS_WIDGET_PACK_VERSION );
 	wp_enqueue_style( 'ts_widget-pack' );
 
 	wp_enqueue_script( 'jquery' );
 	
-	$js_url = plugins_url( 'js/ts-widget-pack.js', __FILE__ );
+	$js_url = plugins_url( "js/ts-widget-pack$min.js", __FILE__ );
 	wp_register_script( 'ts_widget-pack', $js_url, array( 'jquery' ), TS_WIDGET_PACK_VERSION );
 	wp_enqueue_script( 'ts_widget-pack' );
-	
 }
-
-
-
-/**
- * Add action links in Plugins page
- *
- * @since	0.1
- * @todo	Add some links 
- */
-// add_filter( 'plugin_action_links_' . plugin_basename( __FILE__ ), 'ts_widgets_plugin_action_links' );
-/*
-function ts_widgets_plugin_action_links( $links ) {
-
-	return array_merge(
-		array(),
-		$links
-	);
-
-}
-
+add_action( 'wp_enqueue_scripts', 'ts_widgets_add_scripts_styles' );
 
 
 /**
@@ -66,9 +46,7 @@ function ts_widgets_plugin_action_links( $links ) {
  *
  * @since 0.1
  */
-add_filter( 'plugin_row_meta', 'ts_widgets_plugin_meta_links', 10, 2 );
 function ts_widgets_plugin_meta_links( $links, $file ) {
-
 	$plugin = plugin_basename(__FILE__);
 	
 	// create link
@@ -79,9 +57,8 @@ function ts_widgets_plugin_meta_links( $links, $file ) {
 		);
 	}
 	return $links;
-
 }
-
+add_filter( 'plugin_row_meta', 'ts_widgets_plugin_meta_links', 10, 2 );
 
 
 /**
@@ -90,7 +67,6 @@ function ts_widgets_plugin_meta_links( $links, $file ) {
  * @since	TS Widget Pack 0.1
  */
 function ts_widgets_updated_field_value( $widget_field, $new_field_value ) {
-
 	extract( $widget_field );
 	
 	// Allow only integers in number fields
@@ -110,9 +86,7 @@ function ts_widgets_updated_field_value( $widget_field, $new_field_value ) {
 	} else {
 		return strip_tags( $new_field_value );
 	}
-
 }
-
 
 
 /**
@@ -122,10 +96,8 @@ function ts_widgets_updated_field_value( $widget_field, $new_field_value ) {
  */
 include( plugin_dir_path( __FILE__ ) . 'ts-widget-pack-fields.php' );
 
-
-
 /**
- * Register Call to Action Widget
+ * Call to Action Widget
  *
  * @since	TS Widget Pack 0.1
  */

@@ -1,9 +1,9 @@
-=== Widget Pack by ThematoSoup ===
+=== Widget Pack ===
 Contributors: slobodanmanic, nikolicdragan
 Tags: call-to-action widget, list authors, oembed, page tree, preview post widget, social icons widget
-Requires at least: 3.1
-Tested up to: 3.5.1
-Stable tag: 1.1
+Requires at least: 4.0
+Tested up to: 4.2.2
+Stable tag: 1.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -44,22 +44,37 @@ TS oEmbed allows you to embed all kinds of stuff without worrying about the code
 
 Supported formats:
 
-* YouTube (public videos only)
-* Vimeo
-* Flickr (both videos and images)
-* Hulu
-* Twitter (WordPress 3.4+)
+* Animoto
+* Blip
+* CollegeHumor
 * DailyMotion
-* blip.tv
-* Viddler
-* Qik
-* Revision3
-* Scribd
+* EmbedArticles
+* Flickr
+* FunnyOrDie.com
+* Hulu
+* Imgur
+* Instagram
+* iSnare
+* Issuu
+* Kickstarter
+* Meetup.com
+* Mixcloud
 * Photobucket
 * PollDaddy
-* WordPress.tv (only VideoPress-type videos for the time being)
-* SmugMug (WordPress 3.0+)
-* FunnyOrDie.com (WordPress 3.0+)
+* Rdio
+* Revision3
+* Scribd
+* SlideShare
+* SmugMug	
+* SoundCloud
+* Spotify
+* TED
+* Tumblr
+* Twitter
+* Vimeo
+* Vine
+* WordPress.tv
+* YouTube	Videos
 
 = TS Page Tree Widget =
 
@@ -198,6 +213,9 @@ Social Icons widget enables people to easily connect with you on social networks
 5. Post preview and social icons widgets
 
 == Changelog ==
+
+= 1.2 =
+* Adds minified JS and CSS files. 
 
 = 1.1 =
 * Added filtering by user role to List Authors widget. 

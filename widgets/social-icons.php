@@ -208,4 +208,4 @@ class TS_Widgets_Social_Icons extends WP_Widget {
 		}	
 	}
 
-} // class Foo_Widget
+} // class TS_Widgets_Social_Icons

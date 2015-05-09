@@ -8,7 +8,7 @@
 
 
 /**
- * Adds TS_List_Authors_Widget widget.
+ * Adds TS_Widgets_List_Authors widget.
  */
 add_action( 'widgets_init', create_function( '', 'register_widget( "ts_widgets_list_authors" );' ) );
 class TS_Widgets_List_Authors extends WP_Widget {
@@ -253,4 +253,4 @@ class TS_Widgets_List_Authors extends WP_Widget {
 		}	
 	}
 
-} // class Foo_Widget
+} // class TS_Widgets_List_Authors
